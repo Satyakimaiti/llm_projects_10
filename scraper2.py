@@ -1,5 +1,6 @@
 import asyncio
 import os
+import re
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
